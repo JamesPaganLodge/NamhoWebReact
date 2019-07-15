@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 
+import '../css/NamhoHeader.css'
+
 class NamhoHeader extends Component {
   constructor() {
     super()
@@ -8,8 +10,8 @@ class NamhoHeader extends Component {
 
   render() {
     return(
-      <header>
-
+      <header className="App-header">
+        <h3>Namho 2018</h3>
       </header>
     )
   }
