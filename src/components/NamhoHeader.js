@@ -11,7 +11,7 @@ class NamhoHeader extends Component {
   render() {
     return(
       <header className="App-header">
-        <h3>Namho 2018</h3>
+        <h2>NAMHO 2018</h2>
       </header>
     )
   }
