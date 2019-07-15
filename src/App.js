@@ -1,15 +1,23 @@
-import React from 'react';
+import React, {Component} from 'react'
 
 import NamhoHeader from './components/NamhoHeader'
 
-import './css/App.css';
+import './css/App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <NamhoHeader />
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super()
+    this.state = {}
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <NamhoHeader />
+      </div>
+    )
+  }
+  
 }
 
-export default App;
+export default App
