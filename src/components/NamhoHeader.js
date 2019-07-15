@@ -12,6 +12,9 @@ class NamhoHeader extends Component {
     return(
       <header className="App-header">
         <h2>NAMHO 2018</h2>
+        <nav>
+          
+        </nav>
       </header>
     )
   }
