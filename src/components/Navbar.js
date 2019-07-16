@@ -6,6 +6,8 @@ import Trips from '../pages/Trips'
 import Bookings from '../pages/Bookings'
 import Contact from '../pages/Contact'
 
+import '../css/Navbar.css'
+
 class Navbar extends Component {
   constructor() {
     super()
@@ -16,11 +18,11 @@ class Navbar extends Component {
     return (
       <BrowserRouter>
         <nav>
-          <ul>
-            <li><Link to={'/'}>Home</Link></li>
-            <li><Link to={'/Trips'}>Trips</Link></li>
-            <li><Link to={'/Bookings'}>Bookings</Link></li>
-            <li><Link to={'/Contact'}>Contact</Link></li>
+          <ul className="nav-list">
+            <li className="nav-item"><Link to={'/'} className="nav-link">Home</Link></li>
+            <li className="nav-item"><Link to={'/Trips'} className="nav-link">Trips</Link></li>
+            <li className="nav-item"><Link to={'/Bookings'} className="nav-link">Bookings</Link></li>
+            <li className="nav-item"><Link to={'/Contact'} className="nav-link">Contact</Link></li>
           </ul>
         </nav>
         <Switch>
