@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 
 import NamhoHeader from './components/NamhoHeader'
+import Navbar from './components/Navbar'
 
 import './css/App.css'
 
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <NamhoHeader />
+        <Navbar />
       </div>
     )
   }
