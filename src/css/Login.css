@@ -1,0 +1,14 @@
+.login-container {
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.login-link {
+  color: white;
+  padding: 0px 20px;
+  display: block;
+}
