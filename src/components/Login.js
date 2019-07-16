@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import '../css/Login.css'
+
 class Login extends Component {
   constructor() {
     super()
@@ -8,8 +10,8 @@ class Login extends Component {
 
   render() {
     return (
-      <div>
-        Login
+      <div className="login-container">
+        <p className="login-link">Login</p>
       </div>
     )
   }
