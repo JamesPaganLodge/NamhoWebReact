@@ -1,18 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Contact extends Component {
-  constructor() {
-    super()
-    this.state = {}
-  }
-
-  render() {
-    return (
-      <div>
-        Contact
-      </div>
-    )
-  }
+function Contact (props) {
+  return (
+    <div>
+      Contact
+    </div>
+  )
 }
 
 export default Contact

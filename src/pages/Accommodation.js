@@ -1,20 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Accommodation extends Component {
-  constructor() {
-    super()
-  
-    this.state = {}
-  }
-  
-
-  render() {
-    return (
-      <div>
-        Accommodation
-      </div>
-    )
-  }
+function Accommodation (props) {
+  return (
+    <div>
+      Accommodation
+    </div>
+  )
 }
 
 export default Accommodation

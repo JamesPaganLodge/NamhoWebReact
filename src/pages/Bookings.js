@@ -1,18 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Bookings extends Component {
-  constructor() {
-    super()
-    this.state = {}
-  }
-
-  render() {
-    return (
-      <div>
-        Bookings
-      </div>
-    )
-  }
+function Bookings (props) {
+  return (
+    <div>
+      Bookings
+    </div>
+  )
 }
 
 export default Bookings

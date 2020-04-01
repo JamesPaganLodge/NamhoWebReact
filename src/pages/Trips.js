@@ -1,18 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Trips extends Component {
-  constructor() {
-    super()
-    this.state = {}
-  }
-
-  render() {
-    return (
-      <div>
-        Trips
-      </div>
-    )
-  }
+function Trips (props) {
+  return (
+    <div>
+      Trips
+    </div>
+  )
 }
 
 export default Trips
